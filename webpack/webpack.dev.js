@@ -10,8 +10,9 @@ module.exports = {
   },
   plugins: [
     new ReactRefreshWebpackPlugin(),
+    // Define new env variables
     new webpack.DefinePlugin({
-      "process.env.name": JSON.stringify("Vishwas"),
+      "process.env.name": JSON.stringify("development"),
     }),
   ],
 };
