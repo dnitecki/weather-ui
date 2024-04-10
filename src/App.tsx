@@ -1,3 +1,10 @@
+import OverviewPage from "./components/overviewPage/OverviewPage";
+import "./App.css";
+
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div className="app">
+      <OverviewPage />
+    </div>
+  );
 }
