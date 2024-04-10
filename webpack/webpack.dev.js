@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -9,6 +10,9 @@ module.exports = {
     open: true,
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      showErrors: true,
+    }),
     new ReactRefreshWebpackPlugin(),
     // Define new env variables
     new webpack.DefinePlugin({
