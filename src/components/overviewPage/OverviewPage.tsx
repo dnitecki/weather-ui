@@ -1,5 +1,11 @@
 import "./OverviewPage.css";
 
 export default function OverviewPage() {
-  return <div>OverviewPage</div>;
+  return (
+    <div className="overview-container">
+      <section>
+        <h1>Main</h1>
+      </section>
+    </div>
+  );
 }
