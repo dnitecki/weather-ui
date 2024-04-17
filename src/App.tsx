@@ -1,5 +1,5 @@
 import OverviewPage from "./components/overviewPage/OverviewPage";
-import "./App.css";
+import "./App.scss";
 
 export default function App() {
   return (

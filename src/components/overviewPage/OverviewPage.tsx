@@ -1,4 +1,4 @@
-import "./OverviewPage.css";
+import "./OverviewPage.scss";
 
 export default function OverviewPage() {
   return (
